@@ -66,8 +66,11 @@ li {
     color:antiquewhite;
     padding: 2px;
     border-color: black;
-    font-size: 20px;
-    box-shadow: 0px 0px 10px black;
+    font-size: 10px;
+    box-shadow: 0px 0px 20px black;
+    height: 50px;
+    width: 100px;
+    transition: transform 0.3s, background 0.3s;
 }
 
 .btn:hover {
@@ -79,7 +82,7 @@ li {
     margin: 50px;
     display: flex;
     justify-content: center;
-    flex-flow: wrap-reverse  ;
+    flex-flow: wrap-reverse;
 }
 
 /*tarjeta*/
@@ -121,7 +124,7 @@ a {
     display: flex;
     height: 330px;
     width: 60%;
-    box-shadow:0px 0px 10px black;
+    box-shadow:0px 0px 20px black;
     background-color: #FFFF;
     margin: 20px;
     flex: 2;
@@ -153,7 +156,7 @@ a {
     height: 300px;
     flex: 2;
     margin: 20px;
-    box-shadow:0px 0px 10px black;
+    box-shadow:0px 0px 20px black;
     border-radius: 5px;
     border-color:rgb(124, 37, 37);
     border:2px solid rgb(184, 178, 178);
